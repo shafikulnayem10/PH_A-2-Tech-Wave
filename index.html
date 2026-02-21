@@ -156,26 +156,52 @@
  
 
 
- <!-- RATING SECTION START -->
-<section class="grid grid-cols-2 gap-6  items-center lg:grid-cols-4 lg:gap-12 bg-[#1b1239] mt-12 mr-30 mb-20 p-6 lg:p-12 rounded-lg max-w-7xl mx-auto">
-    <div class="stat-box transition-transform duration-300 hover:scale-150">
-        <h3>150K+</h3>
-        <p>MONTHLY LISTENERS</p>
-    </div>
-    <div class="stat-box transition-transform duration-300 hover:scale-150">
-        <h3>200+</h3>
-        <p>EPISODES PUBLISHED</p>
-    </div>
-   <div class="stat-box transition-transform duration-300 hover:scale-150">
-        <h3>4.9 <i class="fa-solid fa-star"></i></h3>
-        <p>AVERAGE RATING</p>
-    </div>
-   <div class="stat-box transition-transform duration-300 hover:scale-150">
-        <h3>50+</h3>
-        <p>INDUSTRY EXPERTS</p>
-    </div>
-</section>
+<!-- RATING SECTION START -->
+<section class="mt-12 mb-20 px-4">
 
+  <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+    <!-- Card 1 -->
+    <div class="bg-[#4b3a82] rounded-xl p-6 text-center 
+                transition-transform duration-300 hover:scale-105">
+
+      <h3 class="text-2xl lg:text-3xl font-bold">150K+</h3>
+      <p class="text-sm text-gray-300 mt-2">MONTHLY LISTENERS</p>
+
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-[#4b3a82] rounded-xl p-6 text-center 
+                transition-transform duration-300 hover:scale-105">
+
+      <h3 class="text-2xl lg:text-3xl font-bold">200+</h3>
+      <p class="text-sm text-gray-300 mt-2">EPISODES PUBLISHED</p>
+
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-[#4b3a82] rounded-xl p-6 text-center 
+                transition-transform duration-300 hover:scale-105">
+
+      <h3 class="text-2xl lg:text-3xl font-bold">
+        4.9 <i class="fa-solid fa-star text-yellow-400"></i>
+      </h3>
+      <p class="text-sm text-gray-300 mt-2">AVERAGE RATING</p>
+
+    </div>
+
+    <!-- Card 4 -->
+    <div class="bg-[#4b3a82] rounded-xl p-6 text-center 
+                transition-transform duration-300 hover:scale-105">
+
+      <h3 class="text-2xl lg:text-3xl font-bold">50+</h3>
+      <p class="text-sm text-gray-300 mt-2">INDUSTRY EXPERTS</p>
+
+    </div>
+
+  </div>
+
+</section>
 <!-- RATING SECTION END -->
 
   <!-- WHY CHOOSE  SECTION START  -->
@@ -249,71 +275,123 @@
 
 </section>
 <!-- WHY CHOOSE  SECTION ENDS  -->
+
 <!-- FEATURE SECTION STARTS -->
-<section class=" bg-[#13101d] py-20 px-6 md:px-12 lg:px-16">
-    <div class="feature-container-parent">
+<section class="bg-[#13101d] py-20 px-6 md:px-12 lg:px-16">
+  
+  <div class="max-w-7xl mx-auto">
+    
     <!-- Title -->
-    <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 md:mb-20">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
       Featured Episodes
-      
     </h2>
-    <div class="feature-video-container-parent  grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12 bg-[#13101d]">
-        <!-- video-1 -->
-        <div class="episode-card bg-[#1b1239] rounded-xl transition-transform duration-300 hover:scale-105">
 
-            <iframe  src="https://www.youtube.com/embed/KKNCiRWd_j0?si=7Bcl8jyGxhWOENSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mb-5 h-50 rounded-t-4xl lg: w-110"></iframe>
-          <div class="p-2">
-               <h3 class="mb-2 text-2xl font-bold">The Future of AI in Everyday Life</h3>
-             <p class="mb-2">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-            <div class="flex gap-2">
-             <img src="./assets/clock.png" class="w-5 h-5">
-             <p>42 min</p>
-            </div>
+    <!-- Video Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Episode 1 -->
+      <div class="bg-[#1b1239] rounded-xl overflow-hidden transition-transform duration-300 hover:scale-105">
+
+        <!-- Responsive Video -->
+        <div class="relative w-full pt-[56.25%]">
+          <iframe 
+            src="https://www.youtube.com/embed/KKNCiRWd_j0"
+            title="The Future of AI in Everyday Life"
+            class="absolute top-0 left-0 w-full h-full"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <!-- Content -->
+        <div class="p-5">
+          <h3 class="mb-3 text-xl font-bold">
+            The Future of AI in Everyday Life
+          </h3>
+
+          <p class="mb-4 text-gray-300 text-sm">
+            Exploring how artificial intelligence is transforming our daily routines 
+            and what to expect in the next decade.
+          </p>
+
+          <div class="flex items-center gap-2 text-sm text-gray-400">
+            <img src="./assets/clock.png" class="w-4 h-4">
+            <span>42 min</span>
           </div>
+        </div>
 
-         
-           
-         </div>
-         <!-- video-2 -->
-          <div class="episode-card bg-[#1b1239] rounded-xl transition-transform duration-300 hover:scale-105">
+      </div>
 
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/9E2SdLD3Kpc?si=ejgxIxpxjC67Spdt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mb-5 h-50 rounded-t-4xl lg: w-110"></iframe>
-          <div class="p-2">
-               <h3 class="mb-2 text-2xl font-bold">Building Better Habits for Remote Work</h3>
-             <p class="mb-2">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
-            <div class="flex gap-2">
-             <img src="./assets/clock.png" class="w-5 h-5">
-             <p>35 min</p>
-            </div>
+
+      <!-- Episode 2 -->
+      <div class="bg-[#1b1239] rounded-xl overflow-hidden transition-transform duration-300 hover:scale-105">
+
+        <div class="relative w-full pt-[56.25%]">
+          <iframe 
+            src="https://www.youtube.com/embed/9E2SdLD3Kpc"
+            title="Building Better Habits for Remote Work"
+            class="absolute top-0 left-0 w-full h-full"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="p-5">
+          <h3 class="mb-3 text-xl font-bold">
+            Building Better Habits for Remote Work
+          </h3>
+
+          <p class="mb-4 text-gray-300 text-sm">
+            Practical strategies for staying productive and maintaining 
+            work-life balance in a remote environment.
+          </p>
+
+          <div class="flex items-center gap-2 text-sm text-gray-400">
+            <img src="./assets/clock.png" class="w-4 h-4">
+            <span>35 min</span>
           </div>
-            
-         
-           
-         </div>
-         <!-- video-3 -->
-       <div class="episode-card bg-[#1b1239] rounded-xl transition-transform duration-300 hover:scale-105">
+        </div>
 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/IZ_W8NufP1Y?si=oViqBQu20snhOuib" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mb-5 h-50 rounded-t-4xl lg: w-110"></iframe>
-          <div class="p-2">
-            <h3 class="mb-2 text-2xl font-bold">Career Growth in Tech: A Roadmap</h3>
-             <p class="mb-2">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
-            <div class="flex gap-2">
-             <img src="./assets/clock.png" class="w-5 h-5">
-             <p>51 min</p>
-            </div>
+      </div>
+
+
+      <!-- Episode 3 -->
+      <div class="bg-[#1b1239] rounded-xl overflow-hidden transition-transform duration-300 hover:scale-105">
+
+        <div class="relative w-full pt-[56.25%]">
+          <iframe 
+            src="https://www.youtube.com/embed/IZ_W8NufP1Y"
+            title="Career Growth in Tech: A Roadmap"
+            class="absolute top-0 left-0 w-full h-full"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="p-5">
+          <h3 class="mb-3 text-xl font-bold">
+            Career Growth in Tech: A Roadmap
+          </h3>
+
+          <p class="mb-4 text-gray-300 text-sm">
+            Expert advice on navigating your tech career from junior developer 
+            to senior leadership roles.
+          </p>
+
+          <div class="flex items-center gap-2 text-sm text-gray-400">
+            <img src="./assets/clock.png" class="w-4 h-4">
+            <span>51 min</span>
           </div>
-            
-         
-           
-         </div>
+        </div>
+
+      </div>
 
     </div>
-
-
-    </div>
+  </div>
 
 </section>
 <!-- FEATURE SECTION ENDS -->
+
 
 <!-- MEET THE HOST -->
 <section class="bg-[#13101d] meethost-section  py-20 px-6 md:px-12 lg:px-12">
