@@ -9,7 +9,7 @@ The project has been developed strictly following the assignment guidelines usin
 ---
 
 ## Live Website Link  
-👉 **https://shafikulnayem10.github.io/PH_A-2/**
+👉 **https://tech-wave-podcast.netlify.app/**
 
 ---
 
